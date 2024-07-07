@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkminecraft_wiki_reloded=self.webpackChunkminecraft_wiki_reloded||[]).push([[901],{901:(e,i,c)=>{c.r(i),c.d(i,{default:()=>d});const d={}}}]);
+//# sourceMappingURL=901.c6aa2ecb.chunk.js.map

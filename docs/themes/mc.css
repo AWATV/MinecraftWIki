@@ -1,0 +1,150 @@
+body.light .App {
+    color: black;
+    background-image: url(./mc/Header-background.png), url(./mc/Background.webp);
+}
+body.light .logo {
+    background-image: url(./mc/Wiki.webp);
+}
+body.light .head .menus > .decoration{
+    background: #b4bec3;
+}
+body.light .head .menus > .decoration::after{
+    background: linear-gradient(45deg, #b4bec3 0%, #b4bec3 50%, transparent 50%, transparent 100%);
+}
+body.light .head .menus .menu {
+    background-color: #b4bec3;
+    color: #000;
+    background-image: url(./mc/Vector-tabs.webp);
+}
+body.light .head .menus .menu::before {
+    background-image: url(./mc/Vector-tabs.webp);
+}
+body.light .head .menus .menu::after {
+    background-image: url(./mc/Vector-tabs.webp), linear-gradient(to top, #b4bec3 calc(100% - 8px), rgba(0, 0, 0, 0) 0px);
+}
+body.light .head .menus .menu.active, body.light .head > .menus .menu:hover {
+    background-color: #e6eff4;
+    background-image: url(./mc/Vector-tabs.webp);
+}
+body.light .head .menus .menu.active::before {
+    background-image: url(./mc/Vector-tabs.webp);
+}
+body.light .head .menus .menu.active::after, body.light .head > .menus .menu:hover::after {
+    background-image: url(./mc/Vector-tabs.webp), linear-gradient(to top, #e6eff4 calc(100% - 8px), rgba(0, 0, 0, 0) 0px);
+}
+body.light .content {
+    background-color: #e6eff4;
+}
+body.light .content::after {
+    background-image: url(./mc/Vector-tabs-first.png), linear-gradient(#171717, #171717);
+}
+body.light .content > .top > .language > .drop > .icon {
+    background-color: #0645ad;
+}
+body.light .content > .top > .language > .drop > .current {
+    color: #0645ad;
+}
+body.light .content > .top > .language > .drop > .down {
+    background-color: #f8f9fa;
+    border: solid 1px #a2a9b1;
+}
+body.light .content > .top > .language > .drop > .down > .lang {
+    color: #0645ad;
+}
+body.light .content > .top > .language > .drop > .down > .lang.no {
+    color: #ba0000;
+}
+body.light .content a{
+    color: #0645ad;
+}
+body.light .content table {
+    background-color: #f8f9fa;
+    color: #202122;
+    border: 1px solid #a2a9b1;
+}
+
+body.light .content tbody, body.light .content thead, body.light .content tr, body.light .content td, body.light .content th {
+    color: #202122;
+    border: 1px solid #a2a9b1;
+}
+body.light .content th {
+    background-color: #eaecf0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body.dark .App {
+    color: white;
+    background-image: url(./mc/Dark-header-background.png), url(./mc/Dark-background.webp);
+}
+body.dark .logo {
+    background-image: url(./mc/Wiki.webp);
+}
+body.dark .head .menus > .decoration{
+    background: #1f2528;
+}
+body.dark .head .menus > .decoration::after{
+    background: linear-gradient(45deg, #1f2528 0%, #1f2528 50%, transparent 50%, transparent 100%);
+}
+body.dark .head .menus .menu {
+    background-color: #2b2f39;
+    color: #fff;
+    background-image: url(./mc/Dark-vector-tabs.webp);
+}
+body.dark .head .menus .menu::before {
+    background-image: url(./mc/Dark-vector-tabs.webp);
+}
+body.dark .head .menus .menu::after {
+    background-image: url(./mc/Dark-vector-tabs.webp), linear-gradient(to top, #2b2f39 calc(100% - 8px), rgba(0, 0, 0, 0) 0px);
+}
+body.dark .content {
+    background-color: #2b2f39;
+}
+body.dark .content::after {
+    background-image: url(./mc/Dark-vector-tabs-first.webp), linear-gradient(#171717, #171717);
+}
+body.dark .content > .top > .language > .drop > .icon {
+    background-color: #90c0fe;
+}
+body.dark .content > .top > .language > .drop > .current {
+    color: #90c0fe;
+}
+body.dark .content > .top > .language > .drop > .down {
+    background-color: #353535;
+    border: solid 1px #6f6f6f;
+}
+body.dark .content > .top > .language > .drop > .down > .lang {
+    color: #90c0fe;
+}
+body.dark .content > .top > .language > .drop > .down > .lang.no {
+    color: #ff8484;
+}
+body.dark .content a{
+    color: #90c0fe;
+}
+body.dark .content table {
+    background-color: #2f2f2f;
+    color: #e6e6e6;
+    border: 1px solid #444444;
+}
+body.dark .content tbody, body.dark .content thead, body.dark .content tr, body.dark .content td, body.dark .content th {
+    color: #e6e6e6;
+    border: 1px solid #444444;
+}
+body.dark .content th {
+    background-color: #222222;
+}
+
+
