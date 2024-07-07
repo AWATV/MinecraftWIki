@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0613f455.css",
-    "main.js": "/static/js/main.200a99eb.js",
+    "main.js": "/static/js/main.7241f148.js",
     "static/css/97.54379560.chunk.css": "/static/css/97.54379560.chunk.css",
     "static/js/97.d3cd0adc.chunk.js": "/static/js/97.d3cd0adc.chunk.js",
     "static/css/31.233aafcb.chunk.css": "/static/css/31.233aafcb.chunk.css",
@@ -19,7 +19,7 @@
     "static/media/Dark-vector-tabs.webp": "/static/media/Dark-vector-tabs.ce5b2d39342f64852c0c.webp",
     "static/media/Dark-vector-tabs-first.webp": "/static/media/Dark-vector-tabs-first.328d9c0d3f62e0252caa.webp",
     "main.0613f455.css.map": "/static/css/main.0613f455.css.map",
-    "main.200a99eb.js.map": "/static/js/main.200a99eb.js.map",
+    "main.7241f148.js.map": "/static/js/main.7241f148.js.map",
     "97.54379560.chunk.css.map": "/static/css/97.54379560.chunk.css.map",
     "97.d3cd0adc.chunk.js.map": "/static/js/97.d3cd0adc.chunk.js.map",
     "31.233aafcb.chunk.css.map": "/static/css/31.233aafcb.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.0613f455.css",
-    "static/js/main.200a99eb.js"
+    "static/js/main.7241f148.js"
   ]
 }
